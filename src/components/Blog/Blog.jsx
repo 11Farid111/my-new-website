@@ -19,7 +19,7 @@ const Blog = ({blog , handleAddToMark , handleMarkAsRead}) => {
             </div>
             </div>
             <div>
-                <h1>{title}</h1>
+                <h1 className='text-4xl font-bold'>{title}</h1>
                 <p>
                     {
                         hashtags.map((hash, idx)=><span key={idx}><a href=""> #{hash}</a></span>)
